@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker exec -it crudlibros-web bash -c "sudo -u devmatelab /bin/bash"

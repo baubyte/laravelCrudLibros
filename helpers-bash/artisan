@@ -1,0 +1,6 @@
+#!/bin/bash
+
+args="$@"
+command="php artisan $args"
+echo "$command"
+docker exec -it crudlibros-web bash -c "sudo -u devbaubyte /bin/bash -c \"$command\""
